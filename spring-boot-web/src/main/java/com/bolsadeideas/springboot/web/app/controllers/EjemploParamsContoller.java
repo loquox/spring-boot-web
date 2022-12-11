@@ -11,5 +11,6 @@ public class EjemploParamsContoller {
 		@GetMapping("/string")
 		public String param(Model model) {
 			
+			
 		}
 }
