@@ -15,6 +15,7 @@ public class EjemploVariablesRutaController {
 		model.addAttribute("titulo", "Recibir parámetros de la Ruta (@PathVariable) ");
 		model.addAttribute("resultado", "el texto enviado en la ruta es: " + texto  );
 		return "/variables/ver";
+
 		
 	}
 	
